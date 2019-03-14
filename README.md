@@ -7,7 +7,9 @@ Assert that all packages have `{"private": true}` so you can't accidentally publ
 [stability]:   https://github.com/orangemug/stability-badges#unstable
 [circleci]:    https://circleci.com/gh/orangemug/{proj}
 
-It'll find all `package.json` files in a directory that are **not** a subdirectory of `node_modules` and assert that they contain `{"private": true}`
+It'll find all `package.json` files in a directory that are **not** a subdirectory of `node_modules` and assert that they contain `{"private": true}`.
+
+This is mostly useful for monorepos.
 
 
 ## Install

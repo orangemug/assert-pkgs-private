@@ -1,4 +1,4 @@
-# assert-pkgs-private
+# assert-pkgs-private
 Assert that all packages have `{"private": true}` so you can't accidentally publish private code.
 
 [![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)][stability]

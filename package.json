@@ -1,6 +1,9 @@
 {
   "name": "assert-pkgs-private",
   "version": "0.0.0",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
   "dependencies": {
     "glob": "^7.1.3"
   },
